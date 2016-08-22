@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  nginx-ldap-auth:
+    build:
+      context: .
+    image: seges/nginx-ldap-auth:1.0.0
+    expose:
+      - 8888
